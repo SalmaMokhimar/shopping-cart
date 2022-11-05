@@ -3,23 +3,26 @@ import Button from "./Button";
 import MenuItem from "./MenuItem";
 import Input from "./Input";
 import PropTypes from "prop-types";
+import Nasnav from '../images/nasnav.svg';
+import FooterLogo from '../images/footerlogo.svg';
+import Sub from '../image/sub.svg';
 
 class Footer extends React.Component {
     render(){
         const features=this.props.features;
         const socialLST = [];
         for (const [key, value,index] of Object.entries(this.props.socialLinks)) {
-            socialLST.push(<li key={index}><a href="#"><img src={key}/>{value}</a></li>);
+            socialLST.push(<li key={index}><a href="#"><img src={require(`../images/${key}`)}/>{value}</a></li>);
         }
 
-
+     
     return (
       <footer className="footer">
         <div className="container">
             <div className="row footer_top ">
                 <div className="sec_one col-md-6 col-sm-12">
                     <div className="brand">
-                        <img src="../images/footerLogo.svg" alt=""/>
+                        <FooterLogo/>
                     </div>
                     <div className="about">
                         <p>
@@ -38,7 +41,7 @@ class Footer extends React.Component {
                         <h5> subscribe to our newsletter</h5>
                         <Input type={"text"} inputPlaceholder={"Enter Your Mail"}/>
                         <Button className={"secondrybtn"} btnName={"subscribe"}/> 
-                        <img src="../images/sub.svg"/>
+                        <Sub/>
                     </div>
                     <div className="links row">
                         <div className="features col-md-6 col-sm-12">
@@ -69,7 +72,7 @@ class Footer extends React.Component {
                     <img src="../images/visa.png"/>
                 </div>
                 <div className="powered">
-                    <p>powered by <img src="../images/nasnav.svg"/></p>
+                    <p>powered by <Nasnav/></p>
                 </div>
             </div>
         </div>

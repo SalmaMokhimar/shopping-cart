@@ -5,6 +5,10 @@ $medium: 900px;
 $large:1200px;
 
 @media screen and (min-width: $small) and (max-width: $medium) {
+    a.btn ,.button ,button{ 
+        padding: 10px; 
+        width: 150px;
+    }
     .header {
         position: relaive;
         .d-flex{
@@ -67,15 +71,26 @@ $large:1200px;
     }
     .product .variant-menu ul li {
         font-size: .7rem;
+        margin: 0.1rem;
     }
-    .product .variant .control .qtyplus {
-        top: 12%;
-        left: 61%;
-    }
-    .footer{
-        .social ul{
-          
+    .product .variant 
+    {
+        
+        .control .qtyplus {
+            top: 12%;
+            left: 61%;
         }
+       
+    }
+    .main__product{
+        button{
+            font-size: .8rem;
+            font-weight: 500;
+        }
+    }
+    
+    .footer{
+        
         &_bottom {
             img {
             margin: 0 5px;
