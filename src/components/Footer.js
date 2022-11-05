@@ -4,8 +4,8 @@ import MenuItem from "./MenuItem";
 import Input from "./Input";
 import PropTypes from "prop-types";
 import {ReactComponent as Nasnav} from '../images/nasnav.svg';
-import FooterLogo from '../images/footerlogo.svg';
-import Sub from '../image/sub.svg';
+import {ReactComponent as FooterLogo} from '../images/footerlogo.svg';
+import {ReactComponent as Sub} from '../image/sub.svg';
 
 class Footer extends React.Component {
     render(){
