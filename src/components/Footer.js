@@ -3,7 +3,7 @@ import Button from "./Button";
 import MenuItem from "./MenuItem";
 import Input from "./Input";
 import PropTypes from "prop-types";
-import Nasnav from './images/nasnav.svg';
+import {ReactComponent as Nasnav} from './images/nasnav.svg';
 import FooterLogo from './images/footerlogo.svg';
 import Sub from './image/sub.svg';
 
@@ -67,9 +67,9 @@ class Footer extends React.Component {
                     <p>2021 yeshtery, all rights reserved.</p>
                 </div>
                 <div className="payment">
-                    <img src="../images/Rectangle.png"/>
-                    <img src="../images/master.png"/>
-                    <img src="../images/visa.png"/>
+                    <img src="./images/Rectangle.png"/>
+                    <img src="./images/master.png"/>
+                    <img src="./images/visa.png"/>
                 </div>
                 <div className="powered">
                     <p>powered by <Nasnav/> </p>
