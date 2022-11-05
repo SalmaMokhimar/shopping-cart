@@ -19,7 +19,7 @@ class App extends React.Component {
     this.productsLST = require('./services/products.json');
 
     this.features=["about us","contact us","track order","terms and conditions","privacy policy","sell with us","shipping and returns"]
-    this.socialLinks={"facebook.svg":"/yeshtery ","linkedin.svg" :"/yeshtery " , "instagram.svg" :"/yeshtery " ,"twitter.svg":"/yeshtery "
+    this.socialLinks={"f.png":"/yeshtery ","linkedin.svg" :"/yeshtery " , "instagram.svg" :"/yeshtery " ,"twitter.svg":"/yeshtery "
     }
 
     this.cartElement=React.createRef();
