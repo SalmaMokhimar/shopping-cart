@@ -1,0 +1,101 @@
+[
+  {
+    "id":1,
+    "imgURL": "pro1.jpg",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the",
+    "new_price": 9.999,
+    "old_price": 10.55,
+    "sale":50,
+    "rating":4.9,
+    "store":"genne mall",
+    "from":"",
+    "to":"",
+    "duration":"",
+    "sizes":["small","medium","large","X-large","XX-large"],
+    "colors":["colo1.png","color2.png"],
+    "taxonomy":"men",
+    "rates_clinets":22,
+    "thumbnails":["pro1.jpg","pro2.jpg","pro3.jpg","pro4.jpg"]
+
+
+  },
+    {
+      "id":2,
+      "imgURL": "dumy1.png",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the",
+      "new_price": 9.999,
+      "old_price": 10.55,
+      "sale":50,
+      "rating":4,
+      "store":"genne mall",
+      "from":"",
+      "to":"",
+      "duration":""
+    },
+    {
+        "id":3,
+        "imgURL": "dumy2.png",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the",
+        "new_price": 9.999,
+        "old_price": 10.55,
+        "sale":50,
+        "rating":4.5,
+        "store":"",
+        "from":"uk",
+        "to":"egypt",
+        "duration":"4"
+      },
+      {
+        "id":4,
+        "imgURL": "dumy3.png",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the",
+        "new_price": 9.999,
+        "old_price": 10.55,
+        "sale":50,
+        "rating":4,
+        "store":"genne mall",
+        "from":"",
+        "to":"egypt",
+        "duration":"4"
+      },
+      {
+        "id":5,
+        "imgURL": "dumy4.png",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the",
+        "new_price": 9.999,
+        "old_price": 10.55,
+        "sale":"",
+        "rating":4.4,
+        "store":"",
+        "from":"egypt",
+        "to":"egypt",
+        "duration":"4"
+      },
+      {
+        "id":6,
+        "imgURL": "dumy1.png",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the",
+        "new_price": 9.999,
+        "old_price": 10.55,
+        "sale":35,
+        "rating":4,
+        "store":"genne mall",
+        "from":"",
+        "to":"",
+        "duration":""
+      },
+      {
+        "id":7,
+        "imgURL": "dumy2.png",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the",
+        "new_price": 7.999,
+        "old_price": 9.55,
+        "sale":50,
+        "rating":4.5,
+        "store":"",
+        "from":"france",
+        "to":"egypt",
+        "duration":"6"
+      }
+    
+  ]

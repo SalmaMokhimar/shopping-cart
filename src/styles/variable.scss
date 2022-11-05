@@ -1,0 +1,26 @@
+//colors
+$primary-color:#542E90;
+$secondry-color:#FFF200;
+
+
+$text-black-color: #000;
+$primary-btn-color:#fff;
+$secondry-btn-color:#000;
+
+
+$small-header-height: 2.5rem;
+$large-header-height:4rem;
+$h-font-size: 2rem;
+$border-radius:20px;
+$border-color:#80808040;
+$box-shadow: 0px 0.73px 2px #00000080;
+$font:1rem;
+
+
+
+@media screen and (min-width: 968px) {
+    
+    $h-font-size:1.5rem;
+    $font:0.8rem;
+    
+  }

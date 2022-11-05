@@ -1,0 +1,18 @@
+@import './styles/layout.scss';
+
+.App {
+  text-align: center;
+}
+
+li a{
+  text-decoration: none;
+}
+a:hover , a:active{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+  
+}
+
