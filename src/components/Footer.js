@@ -12,7 +12,7 @@ class Footer extends React.Component {
         const features=this.props.features;
         const socialLST = [];
         for (const [key, value,index] of Object.entries(this.props.socialLinks)) {
-            socialLST.push(<li key={index}><a href="#"><img src={require(`../images/${key}`)}/>{value}</a></li>);
+            socialLST.push(<li key={index}><a href="#"><img src={require(`./images/${key}`)}/>{value}</a></li>);
         }
 
      
