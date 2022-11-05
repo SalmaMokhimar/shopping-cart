@@ -3,8 +3,9 @@ import Button from "./Button";
 import MenuItem from "./MenuItem";
 import Input from "./Input";
 import PropTypes from "prop-types";
-import FooterLogo from '../images/footerlogo.svg';
-import Sub from '../image/sub.svg';
+import Nasnav from './images/nasnav.svg';
+import FooterLogo from './images/footerlogo.svg';
+import Sub from './image/sub.svg';
 
 class Footer extends React.Component {
     render(){
@@ -71,7 +72,7 @@ class Footer extends React.Component {
                     <img src="../images/visa.png"/>
                 </div>
                 <div className="powered">
-                    <p>powered by <img src={require(`../images/nasnav.svg`)}  alt=""/></p>
+                    <p>powered by <Nasnav/> </p>
                 </div>
             </div>
         </div>
