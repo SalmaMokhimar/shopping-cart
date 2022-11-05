@@ -3,9 +3,8 @@ import Button from "./Button";
 import MenuItem from "./MenuItem";
 import Input from "./Input";
 import PropTypes from "prop-types";
-import {ReactComponent as Nasnav} from '../images/nasnav.svg';
-import {ReactComponent as FooterLogo} from '../images/footerlogo.svg';
-import {ReactComponent as Sub} from '../images/sub.svg';
+
+
 
 class Footer extends React.Component {
     render(){
@@ -13,6 +12,7 @@ class Footer extends React.Component {
         const socialLST = [];
         for (const [key, value,index] of Object.entries(this.props.socialLinks)) {
             socialLST.push(<li key={index}><a href="#"><img src={require(`../images/${key}`)}/>{value}</a></li>);
+           
         }
 
      
@@ -22,7 +22,7 @@ class Footer extends React.Component {
             <div className="row footer_top ">
                 <div className="sec_one col-md-6 col-sm-12">
                     <div className="brand">
-                        <FooterLogo/>
+                    <img src={process.env.PUBLIC_URL + "/images/footerlogo.svg"}/>
                     </div>
                     <div className="about">
                         <p>
@@ -41,7 +41,7 @@ class Footer extends React.Component {
                         <h5> subscribe to our newsletter</h5>
                         <Input type={"text"} inputPlaceholder={"Enter Your Mail"}/>
                         <Button className={"secondrybtn"} btnName={"subscribe"}/> 
-                        <Sub/>
+                        <img src={process.env.PUBLIC_URL + "/images/sub.svg"}/>
                     </div>
                     <div className="links row">
                         <div className="features col-md-6 col-sm-12">
@@ -67,12 +67,12 @@ class Footer extends React.Component {
                     <p>2021 yeshtery, all rights reserved.</p>
                 </div>
                 <div className="payment">
-                    <img src="./images/Rectangle.png"/>
-                    <img src="./images/master.png"/>
-                    <img src="./images/visa.png"/>
+                    <img src={process.env.PUBLIC_URL + "/images/Rectangle.png"}/>
+                    <img src={process.env.PUBLIC_URL + "/images/master.png"}/>
+                    <img src={process.env.PUBLIC_URL + "/images/visa.png"}/>
                 </div>
                 <div className="powered">
-                    <p>powered by <Nasnav/> </p>
+                    <p>powered by <img src={process.env.PUBLIC_URL + "/images/nasnav.svg"}/> </p>
                 </div>
             </div>
         </div>
