@@ -2,7 +2,7 @@
 
 ##Description:
 
-In that task , I implemented the UI design by creating many distinct componants :
+In that task , I implemented the UI design by creating many distinct components :
 
     -Components that form the Product main view : 
         -Product viewer ( loading images using lazyload,js )
