@@ -5,7 +5,7 @@
 In that task , I implemented the UI design by creating many distinct componants :
 
     -Components that form the Product main view : 
-        -Product viewer ( using lazyload,js )
+        -Product viewer ( loading images using lazyload,js )
         -Size variants
         -Color variants
         -Price
